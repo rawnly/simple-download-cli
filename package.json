@@ -1,0 +1,14 @@
+{
+  "name": "simple-download-cli",
+  "version": "0.1.0",
+  "main": "cli.js",
+  "license": "MIT",
+  "bin": {
+    "download": "./cli.js"
+  },
+  "dependencies": {
+    "meow": "^3.7.0",
+    "normalize-url": "^1.9.1",
+    "simple-download": "^0.3.1"
+  }
+}
