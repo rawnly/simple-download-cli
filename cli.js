@@ -5,13 +5,13 @@
 const download = require('simple-download');
 const meow = require('meow');
 const normalize = require('normalize-url');
+const chalk = require('chalk');
 
 // Variables
 const cli = meow(`
-  Usage
-    download <url> [filename]
+  Usage: ${chalk.yellow('download')} ${chalk.dim('<url>')} ${chalk.gray('[filename]')}
 
-    -p --path <path>
+    ${chalk.yellow('-p --path')} ${chalk.dim('<path>')}
 
 `, {
   alias: {
@@ -47,7 +47,9 @@ function download_cli(inputs, flags) {
   }
 
   download(parameters, (l, n) => {
-    console.log(`${n} downloaded in ${l}`);
+		console.log('');
+    console.log(`${chalk.yellow(n)} downloaded in ${chalk.green(l)}`);
+		console.log('');
   })
 
 }

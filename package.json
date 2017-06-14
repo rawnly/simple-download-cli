@@ -1,5 +1,6 @@
 {
   "name": "simple-download-cli",
+  "description": "Cli tool for simple download.",
   "version": "0.1.1",
   "main": "cli.js",
   "license": "MIT",
@@ -7,6 +8,7 @@
     "download": "./cli.js"
   },
   "dependencies": {
+    "chalk": "^1.1.3",
     "meow": "^3.7.0",
     "normalize-url": "^1.9.1",
     "simple-download": "^0.3.1"

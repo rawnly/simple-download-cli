@@ -1,19 +1,20 @@
 # simple-download-cli
 
 ![placeholder][img_url]
-> Cli version of simple download.
+
+> Cli tool for simple download.
 
 ## Installation
-To install **simple-download-cli** you need 
-to use a **node package manager** as **npm** 
+To install **simple-download-cli** you need
+to use a **node package manager** as **npm**
 or **yarn**
 
 ```bash
     $ npm install simple-download-cli --global
-    
+
     # or with shorthands
-    
-    $npm i -g simple-download-cli 
+
+    $npm i -g simple-download-cli
 ```
 
 ## Usage
@@ -27,9 +28,9 @@ or **yarn**
 
 ## Tested Platforms
   - [x] macOs
-  - [] Windows
-  - [] Linux Systems
-  
+  - [x] Windows
+  - [x] Linux Systems
+
 ## Credits
 File generated with [readme generator](https://rawnly.com/projects/rdm-gen/) by [@Rawnly](https://rawnly.com).
 
