@@ -12,7 +12,7 @@ const cli = meow(`
   Usage: ${chalk.yellow('download')} ${chalk.dim('<url>')} ${chalk.gray('[filename]')}
 
     ${chalk.yellow('-p --path')} ${chalk.dim('<path>')}
-
+		\n
 `, {
   alias: {
     v: 'version',
@@ -39,7 +39,7 @@ function download_cli(inputs, flags) {
 
   if (parameters.url === false) {
     console.log();
-    console.log('Warn: No url provided.');
+    console.log(`${chalk.red('Warn:')} ${chalk.magenta('No url provided.')}`);
     console.log();
     console.log(cli.help);
     console.log();

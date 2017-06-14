@@ -34,4 +34,4 @@ or **yarn**
 ## Credits
 File generated with [readme generator](https://rawnly.com/projects/rdm-gen/) by [@Rawnly](https://rawnly.com).
 
-[img_url]: https://placehold.it/1920x1080?text=simple-download-cli+Screenshot
+[img_url]: screenshot.png

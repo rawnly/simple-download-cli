@@ -3,6 +3,8 @@
   "description": "Cli tool for simple download.",
   "version": "0.1.1",
   "main": "cli.js",
+	"repository": "https://github.com/Rawnly/simple-download-cli.git",
+	"author": "Rawnly <fedevitale99@gmail.com> (rawnly.com)",
   "license": "MIT",
   "bin": {
     "download": "./cli.js"
@@ -12,5 +14,14 @@
     "meow": "^3.7.0",
     "normalize-url": "^1.9.1",
     "simple-download": "^0.3.1"
-  }
+  },
+	"keywords": [
+		"download",
+		"download-cli",
+		"downloader",
+		"tool",
+		"download-tool",
+		"client",
+		"commandline"
+	]
 }
